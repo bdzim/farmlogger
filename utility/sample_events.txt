@@ -1,0 +1,416 @@
+{"timestamp": "2016-11-01T16:56:10.162098", "event": "user:create", "entity": {"email": "derrick_clark@example.com", "id": 2, "name": "Derrick Clark"}}
+{"timestamp": "2016-11-01T16:56:10.162371", "event": "field:create", "entity": {"acres": 95, "user_id": 2, "id": 3, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:11.164718", "event": "user:create", "entity": {"email": "david_jensen@example.com", "id": 4, "name": "David Jensen"}}
+{"timestamp": "2016-11-01T16:56:11.164781", "event": "field:delete", "entity": {"acres": 95, "user_id": 2, "id": 3, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:11.164861", "event": "fertilizing:create", "entity": {"user_id": 2, "field_id": 3, "id": 5, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:12.167463", "event": "user:delete", "entity": {"email": "derrick_clark@example.com", "id": 2, "name": "Derrick Clark"}}
+{"timestamp": "2016-11-01T16:56:12.167569", "event": "field:create", "entity": {"acres": 190, "user_id": 4, "id": 6, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:13.168632", "event": "user:delete", "entity": {"email": "david_jensen@example.com", "id": 4, "name": "David Jensen"}}
+{"timestamp": "2016-11-01T16:56:13.168738", "event": "field:create", "entity": {"acres": 75, "user_id": 4, "id": 7, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:14.171529", "event": "field:update", "entity": {"acres": 150, "user_id": 4, "id": 6, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:17.186555", "event": "field:create", "entity": {"acres": 60, "user_id": 2, "id": 8, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:17.186664", "event": "field:delete", "entity": {"acres": 75, "user_id": 4, "id": 7, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:18.191051", "event": "user:create", "entity": {"email": "andrea_russo@example.com", "id": 9, "name": "Andrea Russo"}}
+{"timestamp": "2016-11-01T16:56:18.191126", "event": "field:update", "entity": {"acres": 200, "user_id": 2, "id": 8, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:18.191173", "event": "planting:create", "entity": {"user_id": 9, "field_id": 3, "id": 10, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:18.191209", "event": "field:delete", "entity": {"acres": 150, "user_id": 4, "id": 6, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:18.191243", "event": "fertilizing:create", "entity": {"user_id": 9, "field_id": 6, "id": 11, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:18.191277", "event": "planting:create", "entity": {"user_id": 9, "field_id": 7, "id": 12, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:18.191344", "event": "field:create", "entity": {"acres": 300, "user_id": 9, "id": 13, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:18.191385", "event": "planting:create", "entity": {"user_id": 9, "field_id": 13, "id": 14, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:19.192194", "event": "field:update", "entity": {"acres": 235, "user_id": 2, "id": 8, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:19.192280", "event": "planting:create", "entity": {"user_id": 9, "field_id": 6, "id": 15, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:19.192354", "event": "field:create", "entity": {"acres": 165, "user_id": 9, "id": 16, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:20.203422", "event": "user:create", "entity": {"email": "lisa_martin@example.com", "id": 17, "name": "Lisa Martin"}}
+{"timestamp": "2016-11-01T16:56:20.203596", "event": "field:update", "entity": {"acres": 135, "user_id": 2, "id": 8, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:20.203751", "event": "field:create", "entity": {"acres": 205, "user_id": 4, "id": 18, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:20.203839", "event": "planting:create", "entity": {"user_id": 9, "field_id": 8, "id": 19, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:20.203900", "event": "planting:create", "entity": {"user_id": 9, "field_id": 16, "id": 20, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:21.206149", "event": "rainfall", "entity": {"start": "2016-11-01T15:12:21.206135", "amount": 6.792917597561106, "end": "2016-11-01T16:56:21.206147", "fields": [16, 13]}}
+{"timestamp": "2016-11-01T16:56:21.206258", "event": "field:update", "entity": {"acres": 345, "user_id": 2, "id": 8, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:21.206312", "event": "field:delete", "entity": {"acres": 205, "user_id": 4, "id": 18, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:21.206376", "event": "field:update", "entity": {"acres": 195, "user_id": 9, "id": 16, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:22.212601", "event": "field:create", "entity": {"acres": 85, "user_id": 2, "id": 21, "name": "Little Pivot"}}
+{"timestamp": "2016-11-01T16:56:22.212719", "event": "field:create", "entity": {"acres": 325, "user_id": 9, "id": 22, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:22.212812", "event": "planting:create", "entity": {"user_id": 17, "field_id": 21, "id": 23, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:22.212851", "event": "planting:create", "entity": {"user_id": 17, "field_id": 22, "id": 24, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:23.216409", "event": "user:delete", "entity": {"email": "andrea_russo@example.com", "id": 9, "name": "Andrea Russo"}}
+{"timestamp": "2016-11-01T16:56:23.216571", "event": "field:create", "entity": {"acres": 170, "user_id": 4, "id": 25, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:23.216661", "event": "field:delete", "entity": {"acres": 325, "user_id": 9, "id": 22, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:23.217010", "event": "field:create", "entity": {"acres": 180, "user_id": 17, "id": 26, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:23.217104", "event": "planting:create", "entity": {"user_id": 17, "field_id": 25, "id": 27, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:23.217146", "event": "fertilizing:create", "entity": {"user_id": 17, "field_id": 26, "id": 28, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:24.221181", "event": "user:create", "entity": {"email": "adrian_booth@example.com", "id": 29, "name": "Adrian Booth"}}
+{"timestamp": "2016-11-01T16:56:24.221418", "event": "field:create", "entity": {"acres": 125, "user_id": 4, "id": 30, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:24.221516", "event": "field:update", "entity": {"acres": 200, "user_id": 9, "id": 16, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:24.221557", "event": "fertilizing:create", "entity": {"user_id": 29, "field_id": 13, "id": 31, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:24.221604", "event": "field:update", "entity": {"acres": 70, "user_id": 17, "id": 26, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:24.221636", "event": "planting:create", "entity": {"user_id": 17, "field_id": 18, "id": 32, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:24.221667", "event": "fertilizing:create", "entity": {"user_id": 17, "field_id": 21, "id": 33, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:24.221697", "event": "fertilizing:create", "entity": {"user_id": 29, "field_id": 22, "id": 34, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:24.221771", "event": "planting:create", "entity": {"user_id": 17, "field_id": 30, "id": 35, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:25.225972", "event": "user:delete", "entity": {"email": "lisa_martin@example.com", "id": 17, "name": "Lisa Martin"}}
+{"timestamp": "2016-11-01T16:56:25.226089", "event": "field:create", "entity": {"acres": 285, "user_id": 4, "id": 36, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:25.226141", "event": "fertilizing:create", "entity": {"user_id": 29, "field_id": 7, "id": 37, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:25.226185", "event": "field:update", "entity": {"acres": 300, "user_id": 9, "id": 13, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:25.226235", "event": "field:update", "entity": {"acres": 345, "user_id": 17, "id": 26, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:25.226310", "event": "planting:create", "entity": {"user_id": 29, "field_id": 26, "id": 38, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:25.226413", "event": "planting:create", "entity": {"user_id": 29, "field_id": 36, "id": 39, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:26.230630", "event": "user:create", "entity": {"email": "tom_mcknight@example.com", "id": 40, "name": "Tom Mcknight"}}
+{"timestamp": "2016-11-01T16:56:26.230755", "event": "field:delete", "entity": {"acres": 85, "user_id": 2, "id": 21, "name": "Little Pivot"}}
+{"timestamp": "2016-11-01T16:56:26.230951", "event": "field:delete", "entity": {"acres": 200, "user_id": 9, "id": 16, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:26.231205", "event": "field:create", "entity": {"acres": 135, "user_id": 17, "id": 41, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:26.231557", "event": "fertilizing:create", "entity": {"user_id": 29, "field_id": 41, "id": 42, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:27.234020", "event": "rainfall", "entity": {"start": "2016-11-01T15:21:27.233994", "amount": 3.1244258506786173, "end": "2016-11-01T16:56:27.234016", "fields": []}}
+{"timestamp": "2016-11-01T16:56:27.234109", "event": "field:delete", "entity": {"acres": 345, "user_id": 2, "id": 8, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:27.234184", "event": "field:update", "entity": {"acres": 115, "user_id": 4, "id": 30, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:27.234286", "event": "field:update", "entity": {"acres": 270, "user_id": 9, "id": 13, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:27.234460", "event": "field:create", "entity": {"acres": 80, "user_id": 17, "id": 43, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:27.234613", "event": "fertilizing:create", "entity": {"user_id": 29, "field_id": 18, "id": 44, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:27.234770", "event": "field:create", "entity": {"acres": 240, "user_id": 29, "id": 45, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:27.234876", "event": "fertilizing:create", "entity": {"user_id": 40, "field_id": 36, "id": 46, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:28.239804", "event": "rainfall", "entity": {"start": "2016-11-01T13:48:28.239787", "amount": 5.893421427135893, "end": "2016-11-01T16:56:28.239802", "fields": [45]}}
+{"timestamp": "2016-11-01T16:56:28.239908", "event": "field:update", "entity": {"acres": 190, "user_id": 4, "id": 30, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:28.239969", "event": "fertilizing:create", "entity": {"user_id": 29, "field_id": 8, "id": 47, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:28.240002", "event": "field:update", "entity": {"acres": 135, "user_id": 9, "id": 13, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:28.240042", "event": "fertilizing:create", "entity": {"user_id": 40, "field_id": 16, "id": 48, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:28.240145", "event": "field:create", "entity": {"acres": 320, "user_id": 29, "id": 49, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:28.240192", "event": "fertilizing:create", "entity": {"user_id": 40, "field_id": 30, "id": 50, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:28.240248", "event": "field:create", "entity": {"acres": 45, "user_id": 40, "id": 51, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:28.240306", "event": "fertilizing:create", "entity": {"user_id": 29, "field_id": 45, "id": 52, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:28.240352", "event": "fertilizing:create", "entity": {"user_id": 40, "field_id": 49, "id": 53, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:28.240383", "event": "fertilizing:create", "entity": {"user_id": 40, "field_id": 51, "id": 54, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:29.243027", "event": "rainfall", "entity": {"start": "2016-11-01T13:57:29.243012", "amount": 9.423984380313001, "end": "2016-11-01T16:56:29.243025", "fields": [51, 45]}}
+{"timestamp": "2016-11-01T16:56:29.243158", "event": "field:delete", "entity": {"acres": 135, "user_id": 9, "id": 13, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:29.243247", "event": "field:delete", "entity": {"acres": 80, "user_id": 17, "id": 43, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:29.243310", "event": "fertilizing:create", "entity": {"user_id": 40, "field_id": 25, "id": 55, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:29.243376", "event": "field:create", "entity": {"acres": 70, "user_id": 29, "id": 56, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:29.243426", "event": "field:delete", "entity": {"acres": 45, "user_id": 40, "id": 51, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:29.243462", "event": "planting:create", "entity": {"user_id": 40, "field_id": 41, "id": 57, "crop": "Corn"}}
+{"timestamp": "2016-11-01T16:56:29.243509", "event": "planting:create", "entity": {"user_id": 40, "field_id": 45, "id": 58, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:29.243554", "event": "planting:create", "entity": {"user_id": 29, "field_id": 51, "id": 59, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:30.247885", "event": "user:create", "entity": {"email": "joel_harris@example.com", "id": 60, "name": "Joel Harris"}}
+{"timestamp": "2016-11-01T16:56:30.247978", "event": "field:update", "entity": {"acres": 325, "user_id": 4, "id": 30, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:30.248062", "event": "field:create", "entity": {"acres": 175, "user_id": 9, "id": 61, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:30.248125", "event": "field:create", "entity": {"acres": 315, "user_id": 17, "id": 62, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:30.248207", "event": "field:delete", "entity": {"acres": 70, "user_id": 29, "id": 56, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:30.248314", "event": "planting:create", "entity": {"user_id": 29, "field_id": 56, "id": 63, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:30.248386", "event": "planting:create", "entity": {"user_id": 40, "field_id": 62, "id": 64, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:31.279895", "event": "user:delete", "entity": {"email": "adrian_booth@example.com", "id": 29, "name": "Adrian Booth"}}
+{"timestamp": "2016-11-01T16:56:31.280169", "event": "field:update", "entity": {"acres": 305, "user_id": 4, "id": 30, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:31.281916", "event": "field:update", "entity": {"acres": 280, "user_id": 17, "id": 26, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:31.284043", "event": "field:update", "entity": {"acres": 375, "user_id": 29, "id": 45, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:31.284391", "event": "fertilizing:create", "entity": {"user_id": 40, "field_id": 61, "id": 65, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:32.280512", "event": "rainfall", "entity": {"start": "2016-11-01T13:46:32.280494", "amount": 7.003690735663645, "end": "2016-11-01T16:56:32.280510", "fields": []}}
+{"timestamp": "2016-11-01T16:56:32.284342", "event": "field:delete", "entity": {"acres": 285, "user_id": 4, "id": 36, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:32.284427", "event": "field:update", "entity": {"acres": 315, "user_id": 9, "id": 61, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:32.284483", "event": "field:update", "entity": {"acres": 320, "user_id": 17, "id": 41, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:32.284562", "event": "field:update", "entity": {"acres": 365, "user_id": 29, "id": 45, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:32.284627", "event": "field:create", "entity": {"acres": 370, "user_id": 40, "id": 66, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:32.288495", "event": "fertilizing:create", "entity": {"user_id": 60, "field_id": 56, "id": 67, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:33.284953", "event": "user:delete", "entity": {"email": "tom_mcknight@example.com", "id": 40, "name": "Tom Mcknight"}}
+{"timestamp": "2016-11-01T16:56:33.285106", "event": "field:update", "entity": {"acres": 350, "user_id": 4, "id": 30, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:33.285326", "event": "field:update", "entity": {"acres": 45, "user_id": 9, "id": 61, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:33.285402", "event": "field:update", "entity": {"acres": 135, "user_id": 17, "id": 26, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:33.285525", "event": "field:delete", "entity": {"acres": 320, "user_id": 29, "id": 49, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:33.285611", "event": "field:update", "entity": {"acres": 250, "user_id": 40, "id": 66, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:33.285692", "event": "planting:create", "entity": {"user_id": 60, "field_id": 49, "id": 68, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:33.285740", "event": "planting:create", "entity": {"user_id": 60, "field_id": 66, "id": 69, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:34.286063", "event": "user:create", "entity": {"email": "joshua_rivers@example.com", "id": 70, "name": "Joshua Rivers"}}
+{"timestamp": "2016-11-01T16:56:34.290371", "event": "field:create", "entity": {"acres": 45, "user_id": 4, "id": 71, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:34.290472", "event": "field:update", "entity": {"acres": 250, "user_id": 9, "id": 61, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:34.290549", "event": "field:create", "entity": {"acres": 220, "user_id": 17, "id": 72, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:34.290648", "event": "field:create", "entity": {"acres": 310, "user_id": 29, "id": 73, "name": "Little Pivot"}}
+{"timestamp": "2016-11-01T16:56:34.290712", "event": "field:delete", "entity": {"acres": 250, "user_id": 40, "id": 66, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:34.290757", "event": "planting:create", "entity": {"user_id": 70, "field_id": 43, "id": 74, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:34.290817", "event": "fertilizing:create", "entity": {"user_id": 60, "field_id": 66, "id": 75, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:34.290865", "event": "field:create", "entity": {"acres": 385, "user_id": 60, "id": 76, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:34.290942", "event": "planting:create", "entity": {"user_id": 70, "field_id": 72, "id": 77, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:34.290978", "event": "fertilizing:create", "entity": {"user_id": 60, "field_id": 73, "id": 78, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:34.291011", "event": "planting:create", "entity": {"user_id": 70, "field_id": 76, "id": 79, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:35.289464", "event": "rainfall", "entity": {"start": "2016-11-01T12:43:35.289448", "amount": 3.0788746490083057, "end": "2016-11-01T16:56:35.289462", "fields": [76]}}
+{"timestamp": "2016-11-01T16:56:35.293245", "event": "field:delete", "entity": {"acres": 45, "user_id": 4, "id": 71, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:35.293373", "event": "field:create", "entity": {"acres": 80, "user_id": 17, "id": 80, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:35.293459", "event": "field:delete", "entity": {"acres": 310, "user_id": 29, "id": 73, "name": "Little Pivot"}}
+{"timestamp": "2016-11-01T16:56:35.293594", "event": "field:create", "entity": {"acres": 380, "user_id": 60, "id": 81, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:35.293627", "event": "planting:create", "entity": {"user_id": 60, "field_id": 61, "id": 82, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:35.293667", "event": "planting:create", "entity": {"user_id": 60, "field_id": 71, "id": 83, "crop": "Corn"}}
+{"timestamp": "2016-11-01T16:56:35.293705", "event": "planting:create", "entity": {"user_id": 70, "field_id": 73, "id": 84, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:35.293760", "event": "planting:create", "entity": {"user_id": 60, "field_id": 80, "id": 85, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:36.291368", "event": "user:delete", "entity": {"email": "joel_harris@example.com", "id": 60, "name": "Joel Harris"}}
+{"timestamp": "2016-11-01T16:56:36.296886", "event": "field:create", "entity": {"acres": 160, "user_id": 2, "id": 86, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:36.296987", "event": "field:delete", "entity": {"acres": 250, "user_id": 9, "id": 61, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:36.297043", "event": "field:update", "entity": {"acres": 305, "user_id": 17, "id": 26, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:36.297133", "event": "field:create", "entity": {"acres": 135, "user_id": 29, "id": 87, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:36.297299", "event": "fertilizing:create", "entity": {"user_id": 70, "field_id": 72, "id": 88, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:36.297379", "event": "fertilizing:create", "entity": {"user_id": 70, "field_id": 86, "id": 89, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:37.300421", "event": "rainfall", "entity": {"start": "2016-11-01T12:08:37.300373", "amount": 0.9802236805821056, "end": "2016-11-01T16:56:37.300415", "fields": []}}
+{"timestamp": "2016-11-01T16:56:37.300648", "event": "field:create", "entity": {"acres": 150, "user_id": 70, "id": 90, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:37.300987", "event": "field:create", "entity": {"acres": 375, "user_id": 17, "id": 91, "name": "Little Pivot"}}
+{"timestamp": "2016-11-01T16:56:37.301238", "event": "field:delete", "entity": {"acres": 135, "user_id": 29, "id": 87, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:37.301968", "event": "field:update", "entity": {"acres": 155, "user_id": 60, "id": 76, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:37.302431", "event": "fertilizing:create", "entity": {"user_id": 70, "field_id": 80, "id": 92, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:37.302540", "event": "planting:create", "entity": {"user_id": 70, "field_id": 81, "id": 93, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:37.302732", "event": "planting:create", "entity": {"user_id": 70, "field_id": 90, "id": 94, "crop": "Corn"}}
+{"timestamp": "2016-11-01T16:56:37.302810", "event": "fertilizing:create", "entity": {"user_id": 70, "field_id": 91, "id": 95, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:38.305067", "event": "user:create", "entity": {"email": "crystal_francis@example.com", "id": 96, "name": "Crystal Francis"}}
+{"timestamp": "2016-11-01T16:56:38.305143", "event": "field:create", "entity": {"acres": 70, "user_id": 70, "id": 97, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:38.305180", "event": "field:delete", "entity": {"acres": 160, "user_id": 2, "id": 86, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:38.305292", "event": "field:update", "entity": {"acres": 230, "user_id": 17, "id": 62, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:38.305368", "event": "field:delete", "entity": {"acres": 365, "user_id": 29, "id": 45, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:38.305497", "event": "field:create", "entity": {"acres": 45, "user_id": 60, "id": 98, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:38.305592", "event": "fertilizing:create", "entity": {"user_id": 96, "field_id": 81, "id": 99, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:38.305638", "event": "planting:create", "entity": {"user_id": 70, "field_id": 87, "id": 100, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:38.305669", "event": "fertilizing:create", "entity": {"user_id": 96, "field_id": 90, "id": 101, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:38.305740", "event": "fertilizing:create", "entity": {"user_id": 96, "field_id": 97, "id": 102, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:38.305773", "event": "fertilizing:create", "entity": {"user_id": 70, "field_id": 98, "id": 103, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:39.311626", "event": "user:create", "entity": {"email": "rachel_warner_dvm@example.com", "id": 104, "name": "Rachel Warner DVM"}}
+{"timestamp": "2016-11-01T16:56:39.312605", "event": "fertilizing:create", "entity": {"user_id": 70, "field_id": 43, "id": 105, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:39.313068", "event": "field:create", "entity": {"acres": 250, "user_id": 60, "id": 106, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:39.313299", "event": "fertilizing:create", "entity": {"user_id": 104, "field_id": 71, "id": 107, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:39.313444", "event": "fertilizing:create", "entity": {"user_id": 70, "field_id": 76, "id": 108, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:39.313536", "event": "fertilizing:create", "entity": {"user_id": 96, "field_id": 87, "id": 109, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:39.313654", "event": "planting:create", "entity": {"user_id": 104, "field_id": 98, "id": 110, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:40.312171", "event": "user:delete", "entity": {"email": "joshua_rivers@example.com", "id": 70, "name": "Joshua Rivers"}}
+{"timestamp": "2016-11-01T16:56:40.312278", "event": "field:delete", "entity": {"acres": 350, "user_id": 4, "id": 30, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:40.316055", "event": "field:delete", "entity": {"acres": 375, "user_id": 17, "id": 91, "name": "Little Pivot"}}
+{"timestamp": "2016-11-01T16:56:40.316334", "event": "planting:create", "entity": {"user_id": 96, "field_id": 86, "id": 111, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:40.316456", "event": "planting:create", "entity": {"user_id": 96, "field_id": 106, "id": 112, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:41.314844", "event": "rainfall", "entity": {"start": "2016-11-01T15:48:41.314822", "amount": 6.688935786166295, "end": "2016-11-01T16:56:41.314841", "fields": []}}
+{"timestamp": "2016-11-01T16:56:41.315013", "event": "field:update", "entity": {"acres": 250, "user_id": 4, "id": 25, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:41.315124", "event": "field:create", "entity": {"acres": 260, "user_id": 9, "id": 113, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:41.315182", "event": "planting:create", "entity": {"user_id": 96, "field_id": 113, "id": 114, "crop": "Corn"}}
+{"timestamp": "2016-11-01T16:56:41.319268", "event": "field:delete", "entity": {"acres": 250, "user_id": 60, "id": 106, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:41.319430", "event": "planting:create", "entity": {"user_id": 96, "field_id": 91, "id": 115, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:42.317947", "event": "field:delete", "entity": {"acres": 70, "user_id": 70, "id": 97, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:42.318045", "event": "field:delete", "entity": {"acres": 250, "user_id": 4, "id": 25, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:42.318119", "event": "field:delete", "entity": {"acres": 260, "user_id": 9, "id": 113, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:42.323038", "event": "field:update", "entity": {"acres": 125, "user_id": 17, "id": 62, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:42.323222", "event": "field:delete", "entity": {"acres": 45, "user_id": 60, "id": 98, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:42.323264", "event": "fertilizing:create", "entity": {"user_id": 104, "field_id": 62, "id": 116, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:43.319895", "event": "user:create", "entity": {"email": "deborah_clarke@example.com", "id": 117, "name": "Deborah Clarke"}}
+{"timestamp": "2016-11-01T16:56:43.319971", "event": "field:update", "entity": {"acres": 340, "user_id": 70, "id": 90, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:43.323730", "event": "field:update", "entity": {"acres": 265, "user_id": 17, "id": 72, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:43.323910", "event": "field:delete", "entity": {"acres": 380, "user_id": 60, "id": 81, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:44.320386", "event": "user:delete", "entity": {"email": "crystal_francis@example.com", "id": 96, "name": "Crystal Francis"}}
+{"timestamp": "2016-11-01T16:56:44.320475", "event": "field:create", "entity": {"acres": 345, "user_id": 70, "id": 118, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:44.320644", "event": "planting:create", "entity": {"user_id": 117, "field_id": 118, "id": 119, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:44.325595", "event": "field:delete", "entity": {"acres": 80, "user_id": 17, "id": 80, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:44.325786", "event": "field:create", "entity": {"acres": 340, "user_id": 29, "id": 120, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:44.325977", "event": "field:delete", "entity": {"acres": 155, "user_id": 60, "id": 76, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:44.326129", "event": "planting:create", "entity": {"user_id": 117, "field_id": 97, "id": 121, "crop": "Corn"}}
+{"timestamp": "2016-11-01T16:56:44.326277", "event": "planting:create", "entity": {"user_id": 104, "field_id": 120, "id": 122, "crop": "Corn"}}
+{"timestamp": "2016-11-01T16:56:45.324800", "event": "user:create", "entity": {"email": "jennifer_may@example.com", "id": 123, "name": "Jennifer May"}}
+{"timestamp": "2016-11-01T16:56:45.324881", "event": "field:update", "entity": {"acres": 285, "user_id": 70, "id": 118, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:45.324988", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 113, "id": 124, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:45.325058", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 118, "id": 125, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:45.331944", "event": "field:delete", "entity": {"acres": 340, "user_id": 29, "id": 120, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:45.332059", "event": "field:create", "entity": {"acres": 340, "user_id": 40, "id": 126, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:46.334738", "event": "user:create", "entity": {"email": "joseph_wood@example.com", "id": 127, "name": "Joseph Wood"}}
+{"timestamp": "2016-11-01T16:56:46.335323", "event": "field:delete", "entity": {"acres": 340, "user_id": 40, "id": 126, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:46.335557", "event": "field:create", "entity": {"acres": 105, "user_id": 60, "id": 128, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:46.335931", "event": "field:create", "entity": {"acres": 205, "user_id": 104, "id": 129, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:46.336024", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 120, "id": 130, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:46.336080", "event": "fertilizing:create", "entity": {"user_id": 117, "field_id": 126, "id": 131, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:46.336168", "event": "field:create", "entity": {"acres": 275, "user_id": 127, "id": 132, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:46.336261", "event": "planting:create", "entity": {"user_id": 104, "field_id": 129, "id": 133, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:46.336330", "event": "planting:create", "entity": {"user_id": 117, "field_id": 132, "id": 134, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:47.404625", "event": "user:delete", "entity": {"email": "rachel_warner_dvm@example.com", "id": 104, "name": "Rachel Warner DVM"}}
+{"timestamp": "2016-11-01T16:56:47.404924", "event": "field:delete", "entity": {"acres": 265, "user_id": 17, "id": 72, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:47.405102", "event": "field:create", "entity": {"acres": 260, "user_id": 29, "id": 135, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:47.405212", "event": "field:create", "entity": {"acres": 240, "user_id": 40, "id": 136, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:47.405598", "event": "field:update", "entity": {"acres": 355, "user_id": 60, "id": 128, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:47.405963", "event": "field:delete", "entity": {"acres": 205, "user_id": 104, "id": 129, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:47.406076", "event": "planting:create", "entity": {"user_id": 117, "field_id": 126, "id": 137, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:47.408955", "event": "field:create", "entity": {"acres": 320, "user_id": 127, "id": 138, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:47.413140", "event": "planting:create", "entity": {"user_id": 123, "field_id": 128, "id": 139, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:47.413380", "event": "planting:create", "entity": {"user_id": 117, "field_id": 138, "id": 140, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:48.407017", "event": "user:delete", "entity": {"email": "deborah_clarke@example.com", "id": 117, "name": "Deborah Clarke"}}
+{"timestamp": "2016-11-01T16:56:48.407103", "event": "field:create", "entity": {"acres": 195, "user_id": 70, "id": 141, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:48.407274", "event": "field:update", "entity": {"acres": 240, "user_id": 17, "id": 26, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:48.407354", "event": "field:delete", "entity": {"acres": 260, "user_id": 29, "id": 135, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:48.407403", "event": "field:delete", "entity": {"acres": 240, "user_id": 40, "id": 136, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:48.407658", "event": "field:create", "entity": {"acres": 305, "user_id": 104, "id": 142, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:48.407729", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 141, "id": 143, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:48.412761", "event": "field:update", "entity": {"acres": 275, "user_id": 127, "id": 132, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:48.416686", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 136, "id": 144, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:49.410370", "event": "rainfall", "entity": {"start": "2016-11-01T16:21:49.410350", "amount": 4.3406762703295945, "end": "2016-11-01T16:56:49.410367", "fields": [138]}}
+{"timestamp": "2016-11-01T16:56:49.410470", "event": "field:create", "entity": {"acres": 140, "user_id": 70, "id": 145, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:49.410629", "event": "field:create", "entity": {"acres": 390, "user_id": 123, "id": 146, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:49.410694", "event": "field:update", "entity": {"acres": 340, "user_id": 17, "id": 26, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:49.410872", "event": "field:update", "entity": {"acres": 345, "user_id": 60, "id": 128, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:49.411136", "event": "field:create", "entity": {"acres": 385, "user_id": 96, "id": 147, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:49.411264", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 142, "id": 148, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:49.411308", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 145, "id": 149, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:49.411361", "event": "planting:create", "entity": {"user_id": 127, "field_id": 147, "id": 150, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:49.419147", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 135, "id": 151, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:49.419209", "event": "planting:create", "entity": {"user_id": 127, "field_id": 136, "id": 152, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:49.419248", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 138, "id": 153, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:50.411100", "event": "rainfall", "entity": {"start": "2016-11-01T14:42:50.411083", "amount": 1.4019937474746795, "end": "2016-11-01T16:56:50.411097", "fields": [132]}}
+{"timestamp": "2016-11-01T16:56:50.411172", "event": "field:update", "entity": {"acres": 115, "user_id": 70, "id": 141, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:50.411285", "event": "field:create", "entity": {"acres": 200, "user_id": 9, "id": 154, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:50.411377", "event": "field:delete", "entity": {"acres": 390, "user_id": 123, "id": 146, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:50.411444", "event": "field:create", "entity": {"acres": 45, "user_id": 17, "id": 155, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:50.411626", "event": "field:create", "entity": {"acres": 230, "user_id": 60, "id": 156, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:50.411743", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 154, "id": 157, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:50.411790", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 156, "id": 158, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:50.415488", "event": "field:create", "entity": {"acres": 395, "user_id": 96, "id": 159, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:50.415577", "event": "planting:create", "entity": {"user_id": 123, "field_id": 142, "id": 160, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:50.415644", "event": "field:delete", "entity": {"acres": 320, "user_id": 127, "id": 138, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:50.415679", "event": "planting:create", "entity": {"user_id": 123, "field_id": 159, "id": 161, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:51.412467", "event": "user:create", "entity": {"email": "mrs._michaela_lynn@example.com", "id": 162, "name": "Mrs. Michaela Lynn"}}
+{"timestamp": "2016-11-01T16:56:51.412545", "event": "field:update", "entity": {"acres": 210, "user_id": 70, "id": 141, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:51.416612", "event": "field:create", "entity": {"acres": 360, "user_id": 9, "id": 163, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:51.416671", "event": "field:create", "entity": {"acres": 80, "user_id": 117, "id": 164, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:51.416895", "event": "field:update", "entity": {"acres": 225, "user_id": 60, "id": 156, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:51.416990", "event": "planting:create", "entity": {"user_id": 123, "field_id": 154, "id": 165, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:51.417020", "event": "planting:create", "entity": {"user_id": 162, "field_id": 155, "id": 166, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:51.417048", "event": "planting:create", "entity": {"user_id": 162, "field_id": 156, "id": 167, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:51.417120", "event": "field:delete", "entity": {"acres": 395, "user_id": 96, "id": 159, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:51.417176", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 106, "id": 168, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:51.417215", "event": "planting:create", "entity": {"user_id": 162, "field_id": 141, "id": 169, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:51.417252", "event": "planting:create", "entity": {"user_id": 127, "field_id": 145, "id": 170, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:51.417279", "event": "planting:create", "entity": {"user_id": 127, "field_id": 146, "id": 171, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:51.417327", "event": "field:update", "entity": {"acres": 335, "user_id": 127, "id": 132, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:51.417386", "event": "planting:create", "entity": {"user_id": 123, "field_id": 164, "id": 172, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:51.421179", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 128, "id": 173, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:51.421228", "event": "planting:create", "entity": {"user_id": 162, "field_id": 135, "id": 174, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:52.414881", "event": "user:create", "entity": {"email": "scott_cunningham@example.com", "id": 175, "name": "Scott Cunningham"}}
+{"timestamp": "2016-11-01T16:56:52.415001", "event": "field:update", "entity": {"acres": 315, "user_id": 70, "id": 141, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:52.415115", "event": "field:create", "entity": {"acres": 355, "user_id": 175, "id": 176, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:52.415168", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 176, "id": 177, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:52.419116", "event": "field:create", "entity": {"acres": 205, "user_id": 117, "id": 178, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:52.419188", "event": "field:update", "entity": {"acres": 180, "user_id": 17, "id": 62, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:52.419301", "event": "field:create", "entity": {"acres": 290, "user_id": 40, "id": 179, "name": "Little Pivot"}}
+{"timestamp": "2016-11-01T16:56:52.419397", "event": "field:update", "entity": {"acres": 280, "user_id": 60, "id": 128, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:52.419499", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 155, "id": 180, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:52.419620", "event": "field:create", "entity": {"acres": 210, "user_id": 96, "id": 181, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:52.419679", "event": "field:update", "entity": {"acres": 110, "user_id": 104, "id": 142, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:52.419778", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 146, "id": 182, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:52.419841", "event": "field:create", "entity": {"acres": 385, "user_id": 127, "id": 183, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:52.419886", "event": "planting:create", "entity": {"user_id": 127, "field_id": 163, "id": 184, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:52.419918", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 164, "id": 185, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:52.419987", "event": "planting:create", "entity": {"user_id": 175, "field_id": 181, "id": 186, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:52.420021", "event": "planting:create", "entity": {"user_id": 175, "field_id": 183, "id": 187, "crop": "Black Beans"}}
+{"timestamp": "2016-11-01T16:56:52.423752", "event": "fertilizing:create", "entity": {"user_id": 175, "field_id": 132, "id": 188, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:53.416863", "event": "rainfall", "entity": {"start": "2016-11-01T14:18:53.416830", "amount": 9.206576662774362, "end": "2016-11-01T16:56:53.416858", "fields": [132]}}
+{"timestamp": "2016-11-01T16:56:53.416975", "event": "field:update", "entity": {"acres": 45, "user_id": 70, "id": 141, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:53.417067", "event": "field:create", "entity": {"acres": 110, "user_id": 2, "id": 189, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:53.417158", "event": "field:create", "entity": {"acres": 185, "user_id": 175, "id": 190, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:53.417245", "event": "planting:create", "entity": {"user_id": 127, "field_id": 189, "id": 191, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:53.417287", "event": "planting:create", "entity": {"user_id": 175, "field_id": 190, "id": 192, "crop": "Corn"}}
+{"timestamp": "2016-11-01T16:56:53.421105", "event": "field:update", "entity": {"acres": 190, "user_id": 117, "id": 164, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:53.421189", "event": "field:delete", "entity": {"acres": 45, "user_id": 17, "id": 155, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:53.421310", "event": "field:create", "entity": {"acres": 50, "user_id": 40, "id": 193, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:53.421406", "event": "field:delete", "entity": {"acres": 225, "user_id": 60, "id": 156, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:53.421580", "event": "field:create", "entity": {"acres": 375, "user_id": 96, "id": 194, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:53.421655", "event": "field:delete", "entity": {"acres": 110, "user_id": 104, "id": 142, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:53.421743", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 147, "id": 195, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:53.421783", "event": "field:update", "entity": {"acres": 260, "user_id": 127, "id": 132, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:53.421821", "event": "fertilizing:create", "entity": {"user_id": 175, "field_id": 163, "id": 196, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:53.421858", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 178, "id": 197, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:53.421903", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 183, "id": 198, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:53.421940", "event": "planting:create", "entity": {"user_id": 162, "field_id": 193, "id": 199, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:54.417328", "event": "rainfall", "entity": {"start": "2016-11-01T13:22:54.417268", "amount": 3.3361595564857476, "end": "2016-11-01T16:56:54.417323", "fields": [183, 176]}}
+{"timestamp": "2016-11-01T16:56:54.417552", "event": "field:delete", "entity": {"acres": 140, "user_id": 70, "id": 145, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:54.421909", "event": "field:delete", "entity": {"acres": 110, "user_id": 2, "id": 189, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:54.422029", "event": "field:create", "entity": {"acres": 195, "user_id": 162, "id": 200, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:54.422098", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 189, "id": 201, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:54.422141", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 190, "id": 202, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:54.422214", "event": "field:update", "entity": {"acres": 320, "user_id": 9, "id": 163, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:54.422316", "event": "field:create", "entity": {"acres": 115, "user_id": 17, "id": 203, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:54.422431", "event": "field:create", "entity": {"acres": 40, "user_id": 40, "id": 204, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:54.422539", "event": "field:update", "entity": {"acres": 260, "user_id": 60, "id": 128, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:54.422747", "event": "field:delete", "entity": {"acres": 375, "user_id": 96, "id": 194, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:54.422890", "event": "field:create", "entity": {"acres": 370, "user_id": 104, "id": 205, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:54.423078", "event": "field:delete", "entity": {"acres": 385, "user_id": 127, "id": 183, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:54.423190", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 203, "id": 206, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:54.423227", "event": "planting:create", "entity": {"user_id": 162, "field_id": 204, "id": 207, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:54.423261", "event": "planting:create", "entity": {"user_id": 162, "field_id": 205, "id": 208, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:54.427815", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 179, "id": 209, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:54.427991", "event": "planting:create", "entity": {"user_id": 162, "field_id": 194, "id": 210, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:55.420877", "event": "user:create", "entity": {"email": "jonathan_washington@example.com", "id": 211, "name": "Jonathan Washington"}}
+{"timestamp": "2016-11-01T16:56:55.434858", "event": "field:create", "entity": {"acres": 360, "user_id": 4, "id": 212, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:55.434948", "event": "field:delete", "entity": {"acres": 195, "user_id": 162, "id": 200, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:55.435065", "event": "field:create", "entity": {"acres": 255, "user_id": 175, "id": 213, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:55.435236", "event": "field:create", "entity": {"acres": 100, "user_id": 9, "id": 214, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:55.435549", "event": "field:update", "entity": {"acres": 120, "user_id": 40, "id": 179, "name": "Little Pivot"}}
+{"timestamp": "2016-11-01T16:56:55.435727", "event": "field:delete", "entity": {"acres": 260, "user_id": 60, "id": 128, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:55.436028", "event": "field:update", "entity": {"acres": 120, "user_id": 96, "id": 147, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:55.436283", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 159, "id": 215, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:55.436375", "event": "planting:create", "entity": {"user_id": 211, "field_id": 178, "id": 216, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:55.436429", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 200, "id": 217, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:55.436481", "event": "planting:create", "entity": {"user_id": 123, "field_id": 203, "id": 218, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:55.436530", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 204, "id": 219, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:55.436595", "event": "planting:create", "entity": {"user_id": 162, "field_id": 179, "id": 220, "crop": "Corn"}}
+{"timestamp": "2016-11-01T16:56:55.436642", "event": "fertilizing:create", "entity": {"user_id": 211, "field_id": 181, "id": 221, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:55.436908", "event": "planting:create", "entity": {"user_id": 123, "field_id": 212, "id": 222, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:55.436994", "event": "planting:create", "entity": {"user_id": 123, "field_id": 214, "id": 223, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:56.422073", "event": "rainfall", "entity": {"start": "2016-11-01T15:53:56.422058", "amount": 7.192408526551577, "end": "2016-11-01T16:56:56.422071", "fields": [132, 190]}}
+{"timestamp": "2016-11-01T16:56:56.422155", "event": "field:create", "entity": {"acres": 125, "user_id": 70, "id": 224, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:56.437197", "event": "field:delete", "entity": {"acres": 255, "user_id": 175, "id": 213, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:56.437254", "event": "planting:create", "entity": {"user_id": 127, "field_id": 176, "id": 225, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:56.437357", "event": "field:update", "entity": {"acres": 225, "user_id": 117, "id": 164, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:56.437428", "event": "field:delete", "entity": {"acres": 115, "user_id": 17, "id": 203, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:56.437545", "event": "field:create", "entity": {"acres": 300, "user_id": 40, "id": 226, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:56.437659", "event": "field:create", "entity": {"acres": 395, "user_id": 60, "id": 227, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:56.437836", "event": "field:create", "entity": {"acres": 390, "user_id": 96, "id": 228, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:56.437888", "event": "field:delete", "entity": {"acres": 370, "user_id": 104, "id": 205, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:56.437993", "event": "field:update", "entity": {"acres": 190, "user_id": 127, "id": 132, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:56.438061", "event": "planting:create", "entity": {"user_id": 123, "field_id": 200, "id": 229, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:56.438108", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 205, "id": 230, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:56.438221", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 129, "id": 231, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:56.438288", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 212, "id": 232, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:56.438335", "event": "fertilizing:create", "entity": {"user_id": 123, "field_id": 214, "id": 233, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:56.438376", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 226, "id": 234, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:56.438409", "event": "planting:create", "entity": {"user_id": 211, "field_id": 227, "id": 235, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:56.438445", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 228, "id": 236, "type": "Pig Manure"}}
+{"timestamp": "2016-11-01T16:56:57.425588", "event": "user:delete", "entity": {"email": "jennifer_may@example.com", "id": 123, "name": "Jennifer May"}}
+{"timestamp": "2016-11-01T16:56:57.425657", "event": "field:delete", "entity": {"acres": 125, "user_id": 70, "id": 224, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:57.425712", "event": "field:create", "entity": {"acres": 365, "user_id": 211, "id": 237, "name": "Home East"}}
+{"timestamp": "2016-11-01T16:56:57.425749", "event": "planting:create", "entity": {"user_id": 127, "field_id": 224, "id": 238, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:57.425791", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 237, "id": 239, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:57.439111", "event": "field:create", "entity": {"acres": 190, "user_id": 4, "id": 240, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:57.439159", "event": "field:delete", "entity": {"acres": 185, "user_id": 175, "id": 190, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:57.439252", "event": "field:update", "entity": {"acres": 175, "user_id": 9, "id": 154, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:57.439342", "event": "field:update", "entity": {"acres": 255, "user_id": 17, "id": 62, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:57.439459", "event": "field:create", "entity": {"acres": 190, "user_id": 40, "id": 241, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:57.439709", "event": "field:delete", "entity": {"acres": 390, "user_id": 96, "id": 228, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:57.439844", "event": "field:update", "entity": {"acres": 65, "user_id": 127, "id": 132, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:57.440084", "event": "planting:create", "entity": {"user_id": 211, "field_id": 213, "id": 242, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:57.440139", "event": "planting:create", "entity": {"user_id": 127, "field_id": 226, "id": 243, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:57.440172", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 227, "id": 244, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:57.440223", "event": "planting:create", "entity": {"user_id": 162, "field_id": 240, "id": 245, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:57.440340", "event": "fertilizing:create", "entity": {"user_id": 175, "field_id": 241, "id": 246, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:58.427970", "event": "rainfall", "entity": {"start": "2016-11-01T14:45:58.427934", "amount": 4.296806326173487, "end": "2016-11-01T16:56:58.427966", "fields": [132]}}
+{"timestamp": "2016-11-01T16:56:58.428125", "event": "field:update", "entity": {"acres": 280, "user_id": 70, "id": 141, "name": "Game Land"}}
+{"timestamp": "2016-11-01T16:56:58.428229", "event": "field:create", "entity": {"acres": 310, "user_id": 211, "id": 247, "name": "Fred's Land"}}
+{"timestamp": "2016-11-01T16:56:58.428331", "event": "planting:create", "entity": {"user_id": 211, "field_id": 237, "id": 248, "crop": "Fallow"}}
+{"timestamp": "2016-11-01T16:56:58.428413", "event": "planting:create", "entity": {"user_id": 162, "field_id": 247, "id": 249, "crop": "Soy"}}
+{"timestamp": "2016-11-01T16:56:58.443778", "event": "field:create", "entity": {"acres": 235, "user_id": 2, "id": 250, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:58.443868", "event": "field:update", "entity": {"acres": 285, "user_id": 4, "id": 240, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:58.443963", "event": "field:create", "entity": {"acres": 230, "user_id": 162, "id": 251, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:58.444300", "event": "field:update", "entity": {"acres": 65, "user_id": 9, "id": 163, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:58.444520", "event": "field:delete", "entity": {"acres": 255, "user_id": 17, "id": 62, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:58.444799", "event": "field:update", "entity": {"acres": 315, "user_id": 40, "id": 241, "name": "Rock Pile"}}
+{"timestamp": "2016-11-01T16:56:58.445058", "event": "field:delete", "entity": {"acres": 395, "user_id": 60, "id": 227, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:58.446402", "event": "fertilizing:create", "entity": {"user_id": 127, "field_id": 193, "id": 252, "type": "Anhydrous Amonia"}}
+{"timestamp": "2016-11-01T16:56:58.446925", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 213, "id": 253, "type": "Urea"}}
+{"timestamp": "2016-11-01T16:56:58.447203", "event": "planting:create", "entity": {"user_id": 211, "field_id": 228, "id": 254, "crop": "Alfalfa"}}
+{"timestamp": "2016-11-01T16:56:58.447284", "event": "fertilizing:create", "entity": {"user_id": 211, "field_id": 240, "id": 255, "type": "MiracleGro"}}
+{"timestamp": "2016-11-01T16:56:58.447368", "event": "planting:create", "entity": {"user_id": 175, "field_id": 250, "id": 256, "crop": "Wheat"}}
+{"timestamp": "2016-11-01T16:56:59.430487", "event": "user:create", "entity": {"email": "kevin_butler@example.com", "id": 257, "name": "Kevin Butler"}}
+{"timestamp": "2016-11-01T16:56:59.430562", "event": "field:create", "entity": {"acres": 135, "user_id": 70, "id": 258, "name": "River Road"}}
+{"timestamp": "2016-11-01T16:56:59.430619", "event": "fertilizing:create", "entity": {"user_id": 211, "field_id": 224, "id": 259, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:59.430695", "event": "fertilizing:create", "entity": {"user_id": 211, "field_id": 258, "id": 260, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:59.445482", "event": "field:create", "entity": {"acres": 330, "user_id": 2, "id": 261, "name": "Back 40"}}
+{"timestamp": "2016-11-01T16:56:59.445634", "event": "field:create", "entity": {"acres": 320, "user_id": 9, "id": 262, "name": "Grandpa's Corner"}}
+{"timestamp": "2016-11-01T16:56:59.445688", "event": "field:create", "entity": {"acres": 250, "user_id": 117, "id": 263, "name": "Back Prarie"}}
+{"timestamp": "2016-11-01T16:56:59.445764", "event": "field:create", "entity": {"acres": 80, "user_id": 17, "id": 264, "name": "North Place"}}
+{"timestamp": "2016-11-01T16:56:59.445870", "event": "field:update", "entity": {"acres": 375, "user_id": 40, "id": 226, "name": "Tower Farm"}}
+{"timestamp": "2016-11-01T16:56:59.446093", "event": "fertilizing:create", "entity": {"user_id": 211, "field_id": 261, "id": 265, "type": "Chicken Manure"}}
+{"timestamp": "2016-11-01T16:56:59.446138", "event": "planting:create", "entity": {"user_id": 211, "field_id": 262, "id": 266, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:59.446184", "event": "planting:create", "entity": {"user_id": 162, "field_id": 264, "id": 267, "crop": "Clover"}}
+{"timestamp": "2016-11-01T16:56:59.449845", "event": "field:create", "entity": {"acres": 390, "user_id": 96, "id": 268, "name": "Little Pivot"}}
+{"timestamp": "2016-11-01T16:56:59.449984", "event": "field:delete", "entity": {"acres": 65, "user_id": 127, "id": 132, "name": "Church Land"}}
+{"timestamp": "2016-11-01T16:56:59.450263", "event": "fertilizing:create", "entity": {"user_id": 162, "field_id": 251, "id": 269, "type": "Urea"}}
