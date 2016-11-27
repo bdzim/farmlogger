@@ -1,7 +1,30 @@
+from rest_framework import serializers
+import logging
+
 from farmlogger.farm.models import (
     Event, User, Field
 )
-from rest_framework import serializers
+
+LOG = logging.getLogger(__file__)
+
+
+class FieldSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Field
+        fields = (
+            'id',
+            'created_by',
+            'name',
+            'acres',
+            'planted_by',
+            'planting_time',
+            'crop',
+            'total_rainfall',
+            'last_rainfall',
+            'fertilized_by',
+            'fertilizer_type',
+            'fertilization_time',
+        )
 
 
 class EventSerializer(serializers.ModelSerializer):
@@ -9,9 +32,26 @@ class EventSerializer(serializers.ModelSerializer):
         model = Event
         fields = ('id', 'timestamp', 'event', 'entity')
 
+    def validate(self, data):
+        if data['event'] in ['field:update', 'field:delete',
+                             'fertilizing:create', 'planting:create']:
+            id_ = data['entity'].get('field_id', data['entity']['id'])
+            if not Field.objects.filter(pk=id_).exists():
+                LOG.error('Field does does exist with data: {}'.format(data))
+                raise serializers.ValidationError(
+                    'Field {} does not exist'.format(id_))
+        if 'user_id' in data['entity'] or data['event'] == 'user:delete':
+            id_ = data['entity'].get('user_id', data['entity']['id'])
+            user = User.objects.get(pk=id_)
+            if user.deleted:
+                LOG.error('User does does exist with data: {}'.format(data))
+                raise serializers.ValidationError(
+                    'Attempting to perform action with deleted user id: {}'.format(user.pk))
+        return data
+
     def create_user(self, entity):
         return User.objects.create(
-            id=entity['id'],
+            id=int(entity['id']),
             name=entity['name'],
             email=entity['email'],
         )
@@ -37,7 +77,9 @@ class EventSerializer(serializers.ModelSerializer):
         field.save()
 
     def fertilize_field(self, event, entity, user):
+        print('test')
         field = Field.objects.get(pk=entity['field_id'])
+        print('test2')
         field.fertilizer_type = entity['type']
         field.fertilization_time = event['timestamp']
         field.fertilized_by = user
@@ -81,6 +123,7 @@ class EventSerializer(serializers.ModelSerializer):
         return user
 
     def create(self, validated_data):
+        LOG.debug('Event: {}'.format(validated_data))
         user = self._process_event(validated_data)
         return Event.objects.create(
             user=user,

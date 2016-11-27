@@ -190,3 +190,39 @@ class EventTestCase(TestCase):
         self.assertAlmostEqual(field4.total_rainfall, 8.792917597561106, places=10)
         self.assertEqual(field4.last_rainfall,
                          self._parse_date_string("2016-11-01T16:56:21.206147"))
+
+    def test_400_if_field_does_not_exist(self):
+        r = self.client.post(
+            '/apis/events/',
+            json.dumps({
+                "timestamp": "2016-11-01T16:56:14.171529",
+                "event": "field:update",
+                "entity": {
+                    "acres": 150,
+                    "user_id": 2,
+                    "id": 3,
+                    "name": "Game Land2"
+                }
+            }),
+            content_type='application/json',
+        )
+        self.assertEqual(r.status_code, 400)
+
+    def test_400_if_user_deleted(self):
+        user = User.objects.get(pk=2)
+        user.deleted = True
+        user.save()
+        r = self.client.post(
+            '/apis/events/',
+            json.dumps({
+                "timestamp": "2016-11-01T16:56:12.167463",
+                "event": "user:delete",
+                "entity": {
+                    "email": "derrick_clark@example.com",
+                    "id": 2,
+                    "name": "Derrick Clark"
+                }
+            }),
+            content_type='application/json',
+        )
+        self.assertEqual(r.status_code, 400)
