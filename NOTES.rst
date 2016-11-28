@@ -6,5 +6,6 @@ Assumptions:
 
 Places to improve:
 
-* Input validation. At this point I'm mostly assuming the events are valid, but in a production system there would be much more validating and matching tests.
+* Input validation. At this point I'm mostly assuming the events are valid, but in a production system there would be much more validation and matching tests.
 * Authentication. In a real system we'd need to authenticate users and verify that they had permissions to modify a field.
+* Needs more tests.

@@ -2,8 +2,20 @@ from rest_framework import viewsets
 import pytz
 from django.utils.dateparse import parse_datetime
 
-from farmlogger.farm.models import Event
-from farmlogger.farm.serializers import EventSerializer
+from farmlogger.farm.models import Event, Field, User
+from farmlogger.farm.serializers import (
+    EventSerializer, FieldSerializer, UserSerializer
+)
+
+
+class UserViewSet(viewsets.ModelViewSet):
+    serializer_class = UserSerializer
+    queryset = User.objects.all()
+
+
+class FieldViewSet(viewsets.ModelViewSet):
+    serializer_class = FieldSerializer
+    queryset = Field.objects.all()
 
 
 class EventViewSet(viewsets.ModelViewSet):

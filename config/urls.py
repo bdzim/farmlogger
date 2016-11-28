@@ -9,7 +9,7 @@ from django.views.generic import TemplateView
 from django.views import defaults as default_views
 
 from rest_framework import routers
-from farmlogger.farm.views import EventViewSet
+from farmlogger.farm.views import EventViewSet, FieldViewSet, UserViewSet
 
 urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='pages/home.html'), name='home'),
@@ -28,6 +28,8 @@ urlpatterns = [
 
 router = routers.DefaultRouter()
 router.register(r'apis/events', EventViewSet, base_name='events')
+router.register(r'apis/fields', FieldViewSet, base_name='fields')
+router.register(r'apis/users', UserViewSet, base_name='users')
 urlpatterns += router.urls
 
 if settings.DEBUG:

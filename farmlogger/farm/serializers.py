@@ -8,6 +8,17 @@ from farmlogger.farm.models import (
 LOG = logging.getLogger(__file__)
 
 
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = (
+            'id',
+            'name',
+            'email',
+            'deleted',
+        )
+
+
 class FieldSerializer(serializers.ModelSerializer):
     class Meta:
         model = Field
