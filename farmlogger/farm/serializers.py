@@ -88,9 +88,7 @@ class EventSerializer(serializers.ModelSerializer):
         field.save()
 
     def fertilize_field(self, event, entity, user):
-        print('test')
         field = Field.objects.get(pk=entity['field_id'])
-        print('test2')
         field.fertilizer_type = entity['type']
         field.fertilization_time = event['timestamp']
         field.fertilized_by = user

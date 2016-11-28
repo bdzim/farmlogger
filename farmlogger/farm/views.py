@@ -25,6 +25,14 @@ class EventViewSet(viewsets.ModelViewSet):
         """
         Optionally restricts the returned events by filtering against query
         parameters in the URL.
+
+        Query parameters:
+            user_id (int): The ID of the user who created the event.
+            timestamp__gt (Datetime string): Only return events created after this time.
+            timestamp__lt (Datetime string): Only return events created before this time.
+
+        TODO:
+            * Handle invalid values for query parameters
         """
         queryset = Event.objects.all()
         user_id = self.request.query_params.get('user_id', None)

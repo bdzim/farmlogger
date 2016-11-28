@@ -38,7 +38,6 @@ class Field(models.Model):
 
 class Event(models.Model):
     user = models.ForeignKey(User, null=True)
-    fields = models.ManyToManyField(Field)
     timestamp = models.DateTimeField()
     event = models.CharField(max_length=100, choices=EVENT_CHOICES)
     entity = JSONField()
